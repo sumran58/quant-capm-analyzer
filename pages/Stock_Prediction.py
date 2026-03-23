@@ -1,9 +1,9 @@
 import streamlit as st
 # Import all the helper functions we discussed from the 'model_train' file
-from pages.utils.model_training import get_data, get_rolling_mean, get_differencing_order, scaling, evaluate_model,get_forecast,inverse_scaling
+from utils.model_training import get_data, get_rolling_mean, get_differencing_order, scaling, evaluate_model,get_forecast,inverse_scaling
 import pandas as pd
 # Import visualization functions for tables and charts from 'plotly_figure'
-from pages.utils.plotly_figure import plotly_table, Moving_average_forecast
+from utils.plotly_figure import plotly_table, Moving_average_forecast
 
 # Configure the browser tab title, icon, and set the app to use the full width of the screen
 st.set_page_config(
