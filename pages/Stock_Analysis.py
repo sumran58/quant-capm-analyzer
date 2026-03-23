@@ -4,7 +4,7 @@ import plotly.graph_objects as ga
 import ta
 import datetime
 import streamlit as st
-from pages.utils.plotly_figure import plotly_table, candlestick, RSI, MACD, close_chart, Moving_average_forecast
+from utils.plotly_figure import plotly_table, candlestick, RSI, MACD, close_chart, Moving_average_forecast
  #setting the page config
 st.set_page_config(
   page_title="Stock Analysis",
